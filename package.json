@@ -1,0 +1,31 @@
+{
+  "name": "calculadora-teste-js",
+  "version": "1.0.0",
+  "description": "Calculadora criada no curso de Testes com Jasmine.",
+  "main": "index.js",
+  "scripts": {
+    "test-jasmine": "jasmine",
+    "test-dev": "karma start",
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessandrodelima/calculadora-teste-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alessandrodelima/calculadora-teste-js/issues"
+  },
+  "homepage": "https://github.com/alessandrodelima/calculadora-teste-js#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "jasmine": "^3.7.0",
+    "karma": "^6.3.2",
+    "karma-browserify": "^8.0.0",
+    "karma-firefox-launcher": "^2.1.0",
+    "karma-jasmine": "^4.0.1",
+    "watchify": "^4.0.0"
+  }
+}
